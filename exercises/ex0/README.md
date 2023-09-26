@@ -10,17 +10,17 @@ In this exercise, you can go through the steps required to set up the SAP BTP ac
 and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview) 
 </br>
 2.	In each of these subaccounts create entitlement and subscribe to the following services. </br>
-	| Service name | Plan type | Plan name | 
-	| -----------  | ----------| ----------|
-	| Process Integration	| application plan	| enterprise | 	
-	| Process Integration Runtime| service plan |	it-rt |
-	| API Management, API portal | application plan | standard |
-	| API Management, API portal | service plan	| apiportal-apiaccess |	
-	| Content Agent | application plan | free | 
-	
+	<ul>
+	  <li>Process Integration application plan "enterprise" </li>
+	  <li>Process Integration Runtime service plan "it-rt" </li>
+	  <li>API Management, API portal application plan "standard" </li>
+	  <li>Content Agent application plan "free" </li>
+	</ul>
 <img src="images/Source_account_subscriptions.png" width="50%">
 
-3.	Assign the roles to required users. <Provide list of roles to be assigned>
+3.	Assign the roles to required users. 
+
+<Provide list of roles to be assigned>
 
 ## Create service instances
  

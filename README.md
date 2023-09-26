@@ -41,17 +41,11 @@ Tools Overview for content transports
 ## Exercises
 
 - [Getting Started Prerequisites already configured](exercises/ex0/)
-- [Exercise 1 - set up](exercises/ex1/)
-    - [Exercise 1.1 - Create SAP BTP subaccounts ](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+- [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/)
+- [Exercise 2 - Export content using Content Agent service](exercises/ex2/)
+- [Exercise 3 - Deploy to TEST using features in Cloud ALM](exercises/ex3/)
+- [Exercise 4 - Deploy to Production using Cloud Transport Management](exercises/ex4/)
+- [Exercise 4 - View deployed content in Prod account](exercises/ex5/)  
 
 **IMPORTANT**
 

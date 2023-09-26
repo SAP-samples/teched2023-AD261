@@ -19,5 +19,5 @@ Navigate to Features.
 
 You've now created a new feature in Cloud ALM.
 
-Continue to - [Exercise 2 - Exercise 2 Export content using Content Agent service](../ex2/README.md)
+Continue to - [Exercise 2 - Export content using Content Agent service](../ex2/README.md)
 

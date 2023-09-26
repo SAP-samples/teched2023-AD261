@@ -108,4 +108,4 @@ Paste the following json code into the text editor Replace <YourInstanceName> wi
 ## Summary
 
 Now that you have successfully configured the BTP Landscape.
-Continue to - [Exercise 1](../ex1/README.md)
+Continue to - [Exercise 1 Create SAP Cloud ALM Feature](../ex1/README.md)

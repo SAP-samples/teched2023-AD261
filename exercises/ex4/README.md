@@ -20,6 +20,6 @@ Triggers Import in Cloud Transport Management by selecting the transport request
 
 ## Summary
 
-You've now deployed the changes to TEST system.
+You've now deployed the changes to PROD system.
 
-Continue to - [Exercise 4 - Excercise 3 ](../ex4/README.md)
+Continue to - [Exercise 5 - View deployed content in Prod account](../ex5/README.md)

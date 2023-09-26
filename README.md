@@ -47,9 +47,6 @@ Tools Overview for content transports
 - [Exercise 4 - Deploy to Production using Cloud Transport Management](exercises/ex4/)
 - [Exercise 4 - View deployed content in Prod account](exercises/ex5/)  
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

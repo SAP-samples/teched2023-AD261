@@ -15,6 +15,9 @@ View the metadata and general information available for different content resour
 <img width="322" alt="image" src="images/Content-resources.png">
 
 4.	Start the export step by clicking on “Export” icon from left hand side menu.
+Select multiple contents from different content types. You can use the filters provides.
+Search the integration package with your suffix AD261-XXX and select it.
+<To be done>
 </br>
 <img width="322" alt="image" src="images/export.png">
 

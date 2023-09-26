@@ -6,7 +6,7 @@ To use better traceability option with regards to changes pushed in the transpor
 1. Navigate to SAP Cloud ALM UI and select the feature created and click on Edit.
 </br><img width="322" alt="image" src="images/ALM-Features-Edit.png">
 
-2. Edit the feature and click on Assign under Transport.
+2. Edit the feature and click on Assign under Transport. Choose the Transport Request with description that contains your user as suffix, “Teched Demo Transport for AD261-XXX ”. 
 </br><img width="322" alt="image" src="images/ALM-edit-feature.png">
 
 3. Select the transport request and Assign

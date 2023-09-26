@@ -1,26 +1,48 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD261)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD261)
 
-# Session ID - Session Title
+# Session ID - AD261
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called Session ID - Manage the Propagation of Content Types Based on SAP BTP with SAP Cloud ALM.  
 
 ## Overview
 
-This session introduces attendees to...
+Teched Hands-On Guide for Content Management using Content Agent, Cloud Transport and Cloud ALM service.
+Cloud application solutions, for example, SAP S/4HANA, SAP Cloud Integration, and SAP Workflow Management publishes content to the SAP API Business Hub. Depending on your requirement, you can import, and transport across various landscapes. Also, you can assemble different content types and export.Each service has its own content format to solve a specific business / technical problem. 
+
+Challenges 
+1.	Transparency of deployed Content
+2.	Which Version of Content 
+3.	See the Content Status
+4.	Trigger selective Transport across Accounts
+5.	Clone an account / Clone a Service subscription 
+6.	See Content and Application Dependencies 
+
+Key Capabilities and Benefits: 
+
+o	Simple onboarding, Service subscription and One time Setup
+o	Added Governance with Cloud ALM and standardised change process
+o	Provide separation of concerns with audit trail of changes with SAP Cloud Transport Management Service 
+o	Better productivity for developers, operators and supervisors.
+o	Transparency of content transports and control with authorizations
+o	Less manual transport errors
+
+
+![Overview](exercises/ex0/images/Overview.png)
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+Tools Overview for content transports 
+ - SAP Content Agent service is a generic tool for managing content operations for different SAP BTP service.
+ - SAP Cloud Transport Management is the tool to manage transports of development artifacts and application-specific content
+ - SAP Cloud ALM is an application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. 
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
+- [Getting Started Prerequisites already configured](exercises/ex0/)
+- [Exercise 1 - set up](exercises/ex1/)
+    - [Exercise 1.1 - Create SAP BTP subaccounts ](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)

@@ -27,9 +27,8 @@ and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
  
 1. Create service instance and service key of Content Agent “application” plan in TEST AD261-002 and PROD AD261-003. 
 Select “Admin” role while creating the service instance.
-
-<img src="images/CAS-application-plan-service-instance.png" width="50%">
 </br>
+<img src="images/CAS-application-plan-service-instance.png" width="50%">
 <img src="images/cas-application-plan-roles.png" width="50%">
 
 ## Create Subaccount Destinations
@@ -65,7 +64,6 @@ Target Nodes
   <li>Leave the Deployment Strategy set to default.</li>
   <li>Choose OK.</li>
 </ul>
-
 </br>
 <img src="images/TMS_landscape.png" width="50%">
 

@@ -9,7 +9,6 @@ Navigate to Features.
 2.	Enter name based on user ID and description of feature. Save and Close. 
 </br>
 <img width="322" alt="image" src="images/ALM-New-feature.png">
-
 3. Start Implementation for newly created feature. 
 </br>
 <img width="322" alt="image" src="images/ALM-start-impl.png">

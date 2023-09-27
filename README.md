@@ -21,12 +21,12 @@ Challenges
 
 Key Capabilities and Benefits: 
 
-o	Simple onboarding, Service subscription and One time Setup
-o	Added Governance with Cloud ALM and standardised change process
-o	Provide separation of concerns with audit trail of changes with SAP Cloud Transport Management Service 
-o	Better productivity for developers, operators and supervisors.
-o	Transparency of content transports and control with authorizations
-o	Less manual transport errors
+1.	Simple onboarding, Service subscription and One time Setup
+2.	Added Governance with Cloud ALM and standardised change process
+3.	Provide separation of concerns with audit trail of changes with SAP Cloud Transport Management Service 
+4.	Better productivity for developers, operators and supervisors.
+5.	Transparency of content transports and control with authorizations
+6.	Less manual transport errors
 
 
 ![Overview](exercises/ex0/images/Overview.png)
@@ -34,18 +34,18 @@ o	Less manual transport errors
 ## Requirements
 
 Tools Overview for content transports 
- - SAP Content Agent service is a generic tool for managing content operations for different SAP BTP service.
- - SAP Cloud Transport Management is the tool to manage transports of development artifacts and application-specific content
- - SAP Cloud ALM is an application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. 
+ - Local SAP Content Agent service - A generic tool for managing content operations for different SAP BTP service.
+ - Central SAP Cloud Transport Management - Central tool to manage transports of development artifacts and application-specific content
+ - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. 
 
 ## Exercises
 
-- [Getting Started - Prerequisites](exercises/ex0/)
-- [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/)
-- [Exercise 2 - Export content using Content Agent service](exercises/ex2/)
-- [Exercise 3 - Deploy to TEST using features in Cloud ALM](exercises/ex3/)
-- [Exercise 4 - Deploy to Production using Cloud Transport Management](exercises/ex4/)
-- [Exercise 4 - View deployed content in Prod account](exercises/ex5/)  
+- [Getting Started - Prerequisites](exercises/ex0/README.md)
+- [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/README.md)
+- [Exercise 2 - Export content using Content Agent service](exercises/ex2/README.md)
+- [Exercise 3 - Deploy to TEST using features in Cloud ALM](exercises/ex3/README.md)
+- [Exercise 4 - Deploy to Production using Cloud Transport Management](exercises/ex4/README.md)
+- [Exercise 4 - View deployed content in Prod account](exercises/ex5/README.md)  
 
 
 ## Contributing

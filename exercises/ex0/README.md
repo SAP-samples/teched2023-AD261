@@ -10,16 +10,21 @@ In this exercise, you can go through the steps required to set up the SAP BTP ac
 ,[TEST AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
 and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview) 
 </br>
-2. In each of these subaccounts create entitlement and subscribe to the following services. </br>
+</br>
+2. In each of these subaccounts create entitlement and subscribe to the following services. 
 	<ul>
 	  <li>Process Integration application plan "enterprise" </li>
 	  <li>Process Integration Runtime service plan "it-rt" </li>
 	  <li>API Management, API portal application plan "standard" </li>
 	  <li>Content Agent application plan "free" </li>
 	</ul>
-<img src="images/Source_account_subscriptions.png" width="50%">
-
-3. Assign the roles to required users. 
+</br><img src="images/Source_account_subscriptions.png" width="50%">
+</br>
+</br>
+3. Assign the required roles to required users. 
+</br>To use SAP Content Agent service you need "Content Agent Admin" role collection assigned to your user.
+</br>To use Integration suite you need "PI_Administrator" role collection assigned to your user.
+</br>To use SAP API Management you need "APIPortal.Administrator" role collection assigned to your user.
 
 <Provide list of roles to be assigned>
 
@@ -37,8 +42,11 @@ Select “Admin” role while creating the service instance.
 
 ## Create Central SAP BTP account
 1. Create a central SAP BTP subaccount [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b)
-2. Create subscription for Cloud Transport Management service and assigned required roles
-<img src="images/TMS-Subscription.png" width="50%">
+2. Create subscription for Cloud Transport Management service and assigned required roles. 
+To use Cloud Transport Management service you need "Administrator" role collection assigned to your user.
+</br><img src="images/TMS-Subscription.png" width="50%">
+3. Create subscription for Cloud ALM service. To use Cloud ALM you need "Cross Global Administrator" role collection assigned to your user.
+</br><img src="images/CloudALMSubscription.png" width="50%">
 
 ## Set up landscape in Cloud Transport Management
 1. Create Destinations in Central BTP account from service instances of Content Agent “application” plan subscribed in target accounts (TEST and PROD). 

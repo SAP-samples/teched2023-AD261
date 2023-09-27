@@ -40,7 +40,7 @@ Tools Overview for content transports
 
 ## Exercises
 
-- [Getting Started Prerequisites already configured](exercises/ex0/)
+- [Getting Started - Prerequisites](exercises/ex0/)
 - [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/)
 - [Exercise 2 - Export content using Content Agent service](exercises/ex2/)
 - [Exercise 3 - Deploy to TEST using features in Cloud ALM](exercises/ex3/)

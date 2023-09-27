@@ -1,6 +1,7 @@
-# Pre-requisites and Set up, already configured
+# Getting Started - Prerequisites
 
-In this exercise, you can go through the steps required to set up the SAP BTP accounts and related configurations.
+In this exercise, you can go through the steps required to set up the SAP BTP accounts and related configurations to get started with transporting content using the recommended tools.
+</br> These steps have been already performed for you. It is for your information only. 
 
 ## Create SAP BTP subaccounts 
 

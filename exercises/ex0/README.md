@@ -6,9 +6,9 @@ In this exercise, you can go through the steps required to set up the SAP BTP ac
 ## Create SAP BTP subaccounts 
 
 1. Create subaccounts based on three tier landscape. </br>
-[DEV  AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview)
-,[TEST AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
-and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview) 
+DEV  [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview)
+,TEST [AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
+and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview) 
 </br>
 </br>
 2. In each of these subaccounts create entitlement and subscribe to the following services. 
@@ -16,6 +16,7 @@ and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
 	  <li>Process Integration application plan "enterprise" </li>
 	  <li>Process Integration Runtime service plan "it-rt" </li>
 	  <li>API Management, API portal application plan "standard" </li>
+	  <li>API Management, API portal service plan "apiportal-apiaccess" </li>
 	  <li>Content Agent application plan "free" </li>
 	</ul>
 </br><img src="images/Source_account_subscriptions.png" width="50%">
@@ -28,17 +29,12 @@ and [PROD AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
 
 <Provide list of roles to be assigned>
 
-## Create service instances
- 
-1. Create service instance and service key of Content Agent “application” plan in TEST AD261-002 and PROD AD261-003. 
-Select “Admin” role while creating the service instance.
-</br>
-<img src="images/CAS-application-plan-service-instance.png" width="50%">
-<img src="images/cas-application-plan-roles.png" width="50%">
-
 ## Create Subaccount Destinations
-1. Create Subaccount Destinations in all three accounts DEV, TEST and PROD.  
-<img src="images/Source_destinations.png" width="50%">
+1. Create Subaccount Destinations in all three accounts in DEV [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview),TEST [AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
+and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview).
+</br><img src="images/Source_destinations.png" width="50%">
+2. To create CloudIntegration Destination, use the service key created for Process Integration Runtime service plan "it-rt". 
+3. To create APIManagement Destination, use the service key created for API Management, API portal service plan "apiportal-apiaccess"
 
 ## Create Central SAP BTP account
 1. Create a central SAP BTP subaccount [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b)
@@ -49,11 +45,18 @@ To use Cloud Transport Management service you need "Administrator" role collecti
 </br><img src="images/CloudALMSubscription.png" width="50%">
 
 ## Set up landscape in Cloud Transport Management
-1. Create Destinations in Central BTP account from service instances of Content Agent “application” plan subscribed in target accounts (TEST and PROD). 
-</br>
-<img src="images/TMS-Subscription.png" width="50%">
 
-2. Create a Transport Landscape in Cloud Transport Management using transport nodes and target account destinations
+1. Create service instance and service key of Content Agent “application” plan in  
+TEST [AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
+and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview). Select “Admin” role while creating the service instance.
+</br>
+<img src="images/CAS-application-plan-service-instance.png" width="50%">
+<img src="images/cas-application-plan-roles.png" width="50%">
+
+2. Create Destinations in Central BTP account [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b) from service instances of Content Agent “application” plan created in above step.
+</br><img src="images/target-node-destination.png" width="70%">
+
+3. Create a Transport Landscape in Cloud Transport Management using transport nodes and target account destinations
 </br>
 Source Node
 <ul>
@@ -94,7 +97,6 @@ Paste the following json code into the text editor Replace <YourInstanceName> wi
 	        ]
 	    }
 	}
-
 
 ## Configure Transport Management Destinations in Source BTP Account 
 1.	Create a SAP BTP destination for Cloud Transport management service in DEV subaccount AD261-001 using the Cloud ALM API service instance created before. 

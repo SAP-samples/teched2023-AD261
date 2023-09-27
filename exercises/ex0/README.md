@@ -56,7 +56,7 @@ and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
 2. Create Destinations in Central BTP account [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b) from service instances of Content Agent “application” plan created in above step.
 </br><img src="images/target-node-destination.png" width="70%">
 
-3. Create a Transport Landscape in Cloud Transport Management using transport nodes and target account destinations
+3. Create a Transport Landscape in [Cloud Transport Management](https://ad261-calm-h7f2r9xc.ts.cfapps.eu10.hana.ondemand.com/) using transport nodes and target account destinations
 </br>
 Source Node
 <ul>
@@ -80,7 +80,7 @@ Target Nodes
 
 ## Set up Cloud ALM
 
-1. Subscribe to Cloud ALM application using standard plan and assign the required roles.
+1. In [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b) Subscribe to Cloud ALM application using standard plan and assign the required roles.
 <img src="images/ALM-saas-subscription.png" width="50%">
 2. Create service instance and service key for SAP Cloud ALM API and standard plan.
 When creating a service instance for feature deployment, the following configuration in json format is needed in order to assign the required scopes to the service instance. 
@@ -99,7 +99,7 @@ Paste the following json code into the text editor Replace <YourInstanceName> wi
 	}
 
 ## Configure Transport Management Destinations in Source BTP Account 
-1.	Create a SAP BTP destination for Cloud Transport management service in DEV subaccount AD261-001 using the Cloud ALM API service instance created before. 
+1.	Create a SAP BTP destination for Cloud Transport management service in DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview) using the Cloud ALM API service instance created before. 
 <ol>
   <li>Name TransportManagementService (this value is case-sensitive) </li>
   <li>Type	HTTP </li>

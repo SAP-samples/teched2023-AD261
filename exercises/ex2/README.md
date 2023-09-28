@@ -9,19 +9,21 @@ Use the standardized tool “Content Agent” to select desired contents across 
 </br>
 <img width="322" alt="image" src="images/CAS-Content-Types.png">
 
-3.	Navigate To Content Resources and explore the available content coming from across SAP BTP applications.
+3. Navigate To Content Resources and explore the available content coming from across SAP BTP applications.
 View the metadata and general information available for different content resources. 
 </br>
 <img width="322" alt="image" src="images/Content-resources.png">
 
-4.	Start the export step by clicking on “Export” icon from left hand side menu.
-Select multiple contents from different content types. You can use the filters provides.
-Search the integration package with your suffix AD261-XXX and select it.
-<To be done>
-</br>
-<img width="322" alt="image" src="images/export.png">
+4. Start the export step by clicking on “Export” icon from left hand side menu.
+Select multiple contents from different content types. You can use the filters for Content Type.
+   <ul>
+   * For Cloud Integration, search the integration package with your user .ad261.XXX and select it. For example, SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
+   * For SAP API Management, select "HelloWorldAPI"
+   * For Role Collection, select "TBD"
+   </ul>
+</br> <img width="322" alt="image" src="images/export.png">
 
-5.	Skip the optional step to add dependencies
+5. Proceed to Step 2. Skip the optional step to add dependencies
 </br>
 <img width="322" alt="image" src="images/Depedencies.png">
 

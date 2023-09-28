@@ -1,4 +1,4 @@
-# Exercise 3 - 3.3	Deploy to TEST using features in Cloud ALM 
+# Exercise 3 - Deploy to TEST using features in Cloud ALM 
 
 To use better traceability option with regards to changes pushed in the transport, feature can be used to track deployment status following change management policies of moving changes through pre-defined stages in auditable manner. The goal here is to assign the transport request in Cloud ALM and deploy content based on change workflow. 
 

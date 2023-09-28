@@ -2,7 +2,7 @@
 
 Use the standardized tool “Content Agent” to select desired contents across BTP application and export it using Cloud Transport Management service. The goal is to create a transport request using TMS. 
 
-1. Navigate to DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e) and launch Content Agent UI from navigating to Instances and Subscriptions.
+1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from DEV account AD261-001.
 <img width="322" alt="image" src="images/launchCASUI.png">
 
 2. Go To Content Types Page and check the status of Content Types.

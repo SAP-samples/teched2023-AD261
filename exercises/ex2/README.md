@@ -15,7 +15,7 @@ View the metadata and general information available for different content resour
 <img width="322" alt="image" src="images/Content-resources.png">
 
 4. Start the export step by clicking on “Export” icon from left hand side menu.
-Select multiple contents from different content types. You can use the filters for Content Type.
+Select multiple contents from different content types. You can use the filters for Content Type. After selection proceed to Step 2.
    <ul>
    * For Cloud Integration, search the integration package with your user .ad261.XXX and select it. For example, SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
    * For SAP API Management, select "HelloWorldAPI"
@@ -23,7 +23,7 @@ Select multiple contents from different content types. You can use the filters f
    </ul>
 </br> <img width="322" alt="image" src="images/export.png">
 
-5. Proceed to Step 2. Skip the optional step to add dependencies
+5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to Step 3.
 </br>
 <img width="322" alt="image" src="images/Depedencies.png">
 

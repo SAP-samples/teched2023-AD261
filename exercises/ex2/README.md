@@ -27,23 +27,21 @@ Select multiple contents from different content types. You can use the filters f
 </br>
 <img width="322" alt="image" src="images/Depedencies.png">
 
-6.	Select Export Mode as “SAP Cloud Transport Management” and enter Description “Teched  Demo Transport for <USER_NO>”
+6.	Select Export Mode as “SAP Cloud Transport Management” and enter Description “Teched  Demo Transport for <USER_NO>”. Proceed to Step 4.
 for example “Teched  Demo Transport for AD261-001”. 
 </br><img width="322" alt="image" src="images/ExportMode.png">
 
-7. Proceed to review step. 
+7. You would now be able to review all the choices you made about the content and transport. Proceed to Step 5. This would now start the export in the background and display logs and progress.
 </br><img width="322" alt="image" src="images/Review.png">
 
-8. Navigate to Activities Performed Page 
+8. Navigate to the page from the menu in the left.
 </br><img width="322" alt="image" src="images/Export-Activities-Performed.png">
 
-9.	Check the Logs and Info icon for the last activity
+9. Check the logs for the last activity by clicking on Logs icon
 </br><img width="322" alt="image" src="images/ActivityLogs.png">
 
-10.	Check the content Info and transport info
+10.	Check the content information and transport info by clicking on the info icon.
 </br><img width="322" alt="image" src="images/ActivitiesTransportInfo.png">
-
-
 
 ## Summary
 

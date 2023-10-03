@@ -6,7 +6,7 @@ In this exercise, we will create a new feature in SAP Cloud ALm tool. SAP Cloud 
 Navigate to Features.
 </br>
 <img width="322" alt="image" src="images/ALM-feature.png">
-2.	Enter name based on user ID and description of feature. Save and Close. 
+2.	Enter name "Feature AD261-XXX", for example "Feature AD261-001". Enter a suitable description of feature, for example "Content Transport Feature For Teched Hands On". Save and Close. 
 </br>
 <img width="322" alt="image" src="images/ALM-New-feature.png">
 3. Start Implementation for newly created feature. 

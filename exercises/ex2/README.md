@@ -3,6 +3,7 @@
 Use the standardized tool “Content Agent” to select desired contents across BTP application and export it using Cloud Transport Management service. The goal is to create a transport request using TMS. 
 
 1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from DEV account AD261-001.
+</br>
 <img width="322" alt="image" src="images/launchCASUI.png">
 
 2. Go To Content Types Page and check the status of Content Types.
@@ -16,12 +17,16 @@ View the metadata and general information available for different content resour
 
 4. Start the export step by clicking on “Export” icon from left hand side menu.
 Select multiple contents from different content types. You can use the filters for Content Type. After selection proceed to Step 2.
-   <ul>
-   * For Cloud Integration, search the integration package with your user .ad261.XXX and select it. For example, SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
-   * For SAP API Management, select "HelloWorldAPI"
-   * For Role Collection, select "TBD"
-   </ul>
-</br> <img width="322" alt="image" src="images/export.png">
+    | Content Type   | Content Name  |
+	| -------------  | ------------- |
+	| Cloud Integration   |SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
+	| SAP API Management  |  HelloWorldAPI  
+	| Role Collection  |  Role Collection for Content Export | 
+	
+    <br/> For Cloud Integration, search the integration package with your user .ad261.XXX and select it. For example, SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
+	<br/> For SAP API Management, select "HelloWorldAPI"
+	<br/> For Role Collection, select "Role Collection for Content Export"
+<br/> <img width="322" alt="image" src="images/export.png">
 
 5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to Step 3.
 </br>

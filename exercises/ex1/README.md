@@ -2,11 +2,16 @@
 
 In this exercise, we will create a new feature in SAP Cloud ALm tool. SAP Cloud ALM supports change management process by utilising features through deploy or changes throughout the landscape consistently. 
 
-1.	Launch the [Cloud ALM application](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your user <AD261-XXX@education.cloud.sap>. Navigate to Features.
+1. Launch the [Cloud ALM application](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your user <AD261-XXX@education.cloud.sap>. Navigate to Features.
 Navigate to Features.
 </br>
 <img width="322" alt="image" src="images/ALM-feature.png">
-2.	Enter name "Feature AD261-XXX", for example "Feature AD261-001". Enter a suitable description of feature, for example "Content Transport Feature For Teched Hands On". Save and Close. 
+
+2. Create a new feature by clicking on Create.
+</br>
+<img width="322" alt="image" src="images/ALMCreateFeature.png">
+
+3. Enter name as "Feature AD261-XXX", for example "Feature AD261-001". Enter a suitable description of feature, for example "Content Transport Feature For Teched Hands On". Save and Close. 
 </br>
 <img width="322" alt="image" src="images/ALM-New-feature.png">
 3. Start Implementation for newly created feature. 

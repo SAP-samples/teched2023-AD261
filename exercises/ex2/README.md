@@ -27,7 +27,7 @@ Select multiple contents from different content types. You can use the filters f
 </br>
 <img width="322" alt="image" src="images/Depedencies.png">
 
-6.	Select Export Mode as “SAP Cloud Transport Management” and enter Description “Teched  Demo Transport for <USER_NO>”. Proceed to Step 4.
+6.	Select Export Mode as “SAP Cloud Transport Management” and enter Description “Teched Demo Transport for AD261-XXX”. Proceed to Step 4.
 for example “Teched  Demo Transport for AD261-001”. 
 </br><img width="322" alt="image" src="images/ExportMode.png">
 

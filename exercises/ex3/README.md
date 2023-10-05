@@ -3,19 +3,19 @@
 To use better traceability option with regards to changes pushed in the transport, feature can be used to track deployment status following change management policies of moving changes through pre-defined stages in auditable manner. The goal here is to assign the transport request in Cloud ALM and deploy content based on change workflow. 
 
 
-1. Navigate to SAP Cloud ALM UI and select the feature created and click on Edit.
+1. Navigate to [SAP Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/) and select the feature you created "Feature AD261-XXX" and click on Edit.
 </br><img width="322" alt="image" src="images/ALM-Features-Edit.png">
 
 2. Edit the feature and click on Assign under Transport. Choose the Transport Request with description that contains your user as suffix, “Teched Demo Transport for AD261-XXX ”. 
 </br><img width="322" alt="image" src="images/ALM-edit-feature.png">
 
-3. Select the transport request and Assign
+3. Select the transport request you created "Teched  Demo Transport for AD261-XXX" and click on Assign
 </br><img width="322" alt="image" src="images/ALM-assign-TR.png">
 
-4.	Save and close
+4. Save and close
 </br><img width="322" alt="image" src="images/ALM-Feature-Save.png">
 
-5.	Deploy the transport from Cloud ALM feature.
+5. To deploy the changes in the TEST landscape you can use Cloud ALM feature and Deploy the transport request "Teched  Demo Transport for AD261-XXX".
 </br><img width="322" alt="image" src="images/ALM-deploy-tr.png">
 </br><img width="322" alt="image" src="images/ALM-Deployment-scheduled.png">
 

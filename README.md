@@ -55,8 +55,8 @@ You will be using Cloud Transport Management and Cloud ALM to manage distributio
 - [Getting Started - Prerequisites](exercises/ex0/README.md)
 - [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/README.md)
 - [Exercise 2 - Export content using Content Agent service](exercises/ex2/README.md)
-- [Exercise 3 - Deploy to TEST using features in Cloud ALM](exercises/ex3/README.md)
-- [Exercise 4 - Deploy to Production using Cloud Transport Management](exercises/ex4/README.md)
+- [Exercise 3 - Deploy to TEST using features](exercises/ex3/README.md)
+- [Exercise 4 - Deploy to Production](exercises/ex4/README.md)
 - [Exercise 5 - View deployed content in Prod account](exercises/ex5/README.md)  
 
 

@@ -23,9 +23,6 @@ Select multiple contents from different content types. You can use the filters f
 	| SAP API Management  |  HelloWorldAPI  
 	| Role Collection  |  Role Collection for Content Export | 
 	
-    <br/> For Cloud Integration, search the integration package with your user .ad261.XXX and select it. For example, SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
-	<br/> For SAP API Management, select "HelloWorldAPI"
-	<br/> For Role Collection, select "Role Collection for Content Export"
 <br/> <img width="322" alt="image" src="images/export.png">
 
 5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to Step 3.
@@ -37,7 +34,7 @@ for example “Teched  Demo Transport for AD261-001”.
 </br><img width="322" alt="image" src="images/ExportMode.png">
 
 7. You would now be able to review all the choices you made about the content and transport. Proceed to Step 5. This would now start the export in the background and display logs and progress.
-</br><img width="322" alt="image" src="images/Review.png">
+</br><img width="322" alt="image" src="images/CASExportReview.png">
 
 8. Navigate to the page from the menu in the left.
 </br><img width="322" alt="image" src="images/Export-Activities-Performed.png">

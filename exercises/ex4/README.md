@@ -1,13 +1,9 @@
-# Exercise 4 - Deploy to Production using Cloud Transport Management 
+# Exercise 4 - Deploy to Production 
 
-Triggers Import in Cloud Transport Management by selecting the transport request from production node.
-
-1. Navigate to the [TMS UI](https://ad261-calm-h7f2r9xc.ts.cfapps.eu10.hana.ondemand.com/main/webapp/index.html#/nodeObject/6) and select the PROD from Transport Nodes. 
-Select the Transport request with your user suffix "Teched  Demo Transport for AD261-XXX" and click on Import Selected.
-This would trigger the deployment to TEST account. The process takes a few minutes to complete. As you wait you can check the Action Logs and additional details by clicking on Logs Icon and attachment icon.
-</br><img width="322" alt="image" src="images/TMS-deploy.png">
-</br><img width="322" alt="image" src="images/TMS-deploy-prod-ok.png">
-</br><img width="322" alt="image" src="images/TMS-Deployment-Success.png">
+Once the changes are successfully tested in TEST tenant, start the deployment process for PROD tenant.
+1. Navigate to the [Cloud ALM application](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home).
+Select the feature "Feature AD261-XXX" and click on "Approve for Production"
+</br><img width="322" alt="image" src="images/ALMFeatureApproveDeployment.png">
 
 2. Navigate to Cloud ALM and Confirm Deployment for your feature "Feature AD261-XXX". 
 You observe a final confirmation, click OK.

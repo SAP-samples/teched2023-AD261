@@ -31,6 +31,6 @@ Navigate to Features Overview and select “Analytics.”
 
 ## Summary
 
-You've now deployed the changes to TEST system.
+You've now deployed the changes to TEST system. Now the different Integration and Acceptance tests can be performed on the Test tenant.
 
 Continue to - [Exercise 4 - Deploy to Production using Cloud Transport Management](../ex4/README.md)

@@ -5,7 +5,7 @@ Once the changes are successfully tested in TEST tenant, start the deployment pr
 Select the feature "Feature AD261-XXX" and click on "Approve for Production"
 </br><img width="322" alt="image" src="images/ALMFeatureApproveDeployment.png">
 
-2. Navigate to Cloud ALM and Confirm Deployment for your feature "Feature AD261-XXX". 
+2. After approving the feature for deployment, click on Deploy to start production deployment.
 You observe a final confirmation, click OK.
 </br><img width="322" alt="image" src="images/ALM-confirm-prod-deployment.png">
 </br><img width="322" alt="image" src="images/ALM-Confirm-OK-Prod.png">
@@ -16,9 +16,8 @@ You observe a final confirmation, click OK.
 </br><img width="322" alt="image" src="images/ALM-History-Full.png">
 
 
-
 ## Summary
 
-You've now deployed the changes to PROD system.
+You've now deployed the changes to PROD system. Next step would be to verify logs and content availability 
 
 Continue to - [Exercise 5 - View deployed content in Prod account](../ex5/README.md)

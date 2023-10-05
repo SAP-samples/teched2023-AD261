@@ -57,7 +57,7 @@ You will be using Cloud Transport Management and Cloud ALM to manage distributio
 - [Exercise 2 - Export content using Content Agent service](exercises/ex2/README.md)
 - [Exercise 3 - Deploy to TEST using features](exercises/ex3/README.md)
 - [Exercise 4 - Deploy to Production](exercises/ex4/README.md)
-- [Exercise 5 - View deployed content in Prod account](exercises/ex5/README.md)  
+- [Exercise 5 - Confirm Production Deployment](exercises/ex5/README.md)  
 
 
 ## Contributing

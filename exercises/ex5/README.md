@@ -1,4 +1,4 @@
-# Exercise 5 - Check transport action logs and view the deployed content
+# Exercise 5 - Confirm Production Deployment
 
 </br>
 </b>First step is to check the action logs in the Cloud Transport Management service UI. 

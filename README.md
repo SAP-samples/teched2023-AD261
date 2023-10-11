@@ -28,8 +28,7 @@ Key Capabilities and Benefits:
 5.	Transparency of content transports and control with authorizations
 6.	Less manual transport errors
 
-
-![Overview](exercises/ex0/images/Overview.png)
+<img src="exercises/ex0/images/Overview.png" width="1000">
 
 ## Requirements
 

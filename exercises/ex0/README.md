@@ -87,23 +87,22 @@ Paste the following json code into the text editor. Replace *<YourInstanceName>*
 	}
 
 ## Configure Transport Management Destinations in the Source BTP Account 
-1. Create an SAP BTP destination for SAP Cloud Transport management service in the DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview) using the SAP Cloud ALM API service instance created before.
+1. Create an SAP BTP destination for SAP Cloud Transport Management service in the DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview). To do this, use the SAP Cloud ALM API service instance created before.
 2. Enter the following values:
 
     | Field | Value |
     --- | ---
-    | *Name* | *TransportManagementService* (this value is case-sensitive)
+    | *Name* | *TransportManagementService* (This value is case-sensitive.)
     | *Type*	| *HTTP* |
     | *Description* | You can provide a description for your reference. |
     | *URL* | Enter the URL (*Api*) of the service key of your SAP Cloud ALM API instance, and append */imp-cdm-transport-management-api/v1*. That follows a pattern like this: *https<nolink>://eu10.alm.cloud.sap/api/imp-cdm-transport-management-api/v1*. |
-    | *Proxy Type* | Internet |
-    | *Authentication* | OAuth2ClientCredentials |
-    | *Client ID* | clientid from the service key of your SAP Cloud ALM API instance. |
-    | *Client Secret* | clientsecret from the service key of your SAP Cloud ALM API instance. |
-    | *Token Service URL* | Enter the value of the *url* (*uaa* section) from the service key of your SAP Cloud ALM API instance. Append */oauth/token* at the end of URL fetched from the service key. |
-    | *Additional Properties* | Choose *New Property*. Enter *sourceSystemId* (this value is case-sensitive) as the *key* and provide a value of your choice. Reuse the same value as the name of the source transport node in a later step. |  
+    | *Proxy Type* | *Internet* |
+    | *Authentication* | *OAuth2ClientCredentials* |
+    | *Client ID* | *clientid* from the service key of your SAP Cloud ALM API instance. |
+    | *Client Secret* | *clientsecret* from the service key of your SAP Cloud ALM API instance. |
+    | *Token Service URL* | Enter the value of the *url* (*uaa* section) from the service key of your SAP Cloud ALM API instance. Append */oauth/token* at the end of the URL fetched from the service key. |
+    | *Additional Properties* | Choose *New Property*. Enter *sourceSystemId* (This value is case-sensitive.) as the *key*, and provide a value of your choice. Reuse the same value as the name of the source transport node in a later step. |  
 
 ## Summary
 
-You have successfully configured the SAP BTP landscape.  
-Continue with [Exercise 1 Create SAP Cloud ALM Feature](../ex1/README.md).
+You have successfully configured the SAP BTP landscape. Continue with [Exercise 1 Create SAP Cloud ALM Feature](../ex1/README.md).

@@ -37,7 +37,7 @@ Tools Overview for content transports
  - Central SAP Cloud Transport Management - The central tool for managing transports of development artifacts and application-specific content.
  - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. 
 
-###Personas
+### Personas
 
 1. As a *content operator* you have the knowledge of all solutions and content that exists in your organization.
 You are responsible to collect changes across SAP BTP applications via standard channels to ensure smooth deliveries. 

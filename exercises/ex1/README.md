@@ -1,24 +1,20 @@
-# Exercise 1 - Create SAP Cloud ALM Feature
+# Exercise 1 - Create a Feature in SAP Cloud ALM 
 
-In this exercise, we will create a new feature in SAP Cloud ALm tool. SAP Cloud ALM supports change management process by utilising features through deploy or changes throughout the landscape consistently. 
+In this exercise, you will create a new feature in SAP Cloud ALM. SAP Cloud ALM supports change management processes by utilising features through deploy or changes throughout the landscape consistently. 
 
-1. Launch the [Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your user <AD261-XXX@education.cloud.sap>. Navigate to Features.
-Navigate to Features.
-</br><img width="500" alt="image" src="images/ALM-feature.png">
-
-2. Create a new feature by clicking on Create.
-</br><img width="500" alt="image" src="images/ALMCreateFeature.png">
-
-3. Enter name as "Feature AD261-XXX", for example "Feature AD261-001". Enter a suitable description of feature, for example "Content Transport Feature For Teched Hands On". Save and Close. 
-</br><img width="500" alt="image" src="images/ALM-New-feature.png">
-
-3. Start Implementation for newly created feature. 
-</br>
-<img width="500" alt="image" src="images/ALM-start-impl.png">
-
-
+1. Launch the [Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your `AD261-<XXX>&#064;education.cloud.sap` user.
+2. Navigate to **Features**.  
+    <img width="500" alt="image" src="images/ALM-feature.png">
+3. Create a new feature by choosing **Create**.  
+    <img width="500" alt="image" src="images/ALMCreateFeature.png">
+4. Enter the name as `Feature AD261-<XXX>`, for example `Feature AD261-001`.
+5. Enter a suitable description of the feature, for example `Content Transport Feature For Teched Hands On`.
+6. Save and close.  
+    <img width="500" alt="image" src="images/ALM-New-feature.png">
+7. Start the implementation of the new feature.  
+    <img width="500" alt="image" src="images/ALM-start-impl.png">
 ## Summary
 
-You've now created a new feature in Cloud ALM. 
-Continue to [Exercise 2 - Export content using Content Agent service](../ex2/README.md)
+You've created a new feature in SAP Cloud ALM. 
+Continue with [Exercise 2 - Export Content Using SAP Content Agent Service](../ex2/README.md).
 

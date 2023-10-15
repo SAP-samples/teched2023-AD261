@@ -47,9 +47,8 @@ To use Cloud Transport Management service you need "Administrator" role collecti
 1. Create service instance and service key of Content Agent “application” plan in  
 TEST [AD261-002](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/c906b09b-513a-4f8b-987e-68bfb5ac1d29/subaccountoverview)
 and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/0da621fb-0270-4b8d-bd8c-deee9a443ec2/subaccountoverview). Select “Admin” role while creating the service instance.
-</br>
-<img src="images/CAS-application-plan-service-instance.png" width="50%">
-<img src="images/cas-application-plan-roles.png" width="50%">
+  </br><img src="images/CAS-application-plan-service-instance.png" width="50%">
+  </br><img src="images/cas-application-plan-roles.png" width="50%">
 
 2. Create Destinations in Central BTP account [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b) from service instances of Content Agent “application” plan created in above step.
 </br><img src="images/target-node-destination.png" width="70%">

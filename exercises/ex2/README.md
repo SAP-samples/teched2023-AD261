@@ -2,10 +2,10 @@
 
 Use the standardized tool “Content Agent” to select desired contents across BTP application and export it using Cloud Transport Management service. The goal is to create a transport request using TMS. 
 
-1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from DEV account AD261-001.
+1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from DEV account AD261-001. The UI loads with Overview page where you can view active content types and activities performed and available content resources. 
 </br><img width="500" alt="image" src="images/launchCASUI.png">
 
-2. Go To Content Types Page and check the status of Content Types.
+2. Go To Content Types Page and check the status of Content Types. Since the status is Active, you would be able to perform content operations for that content type in this account.
 </br><img width="500" alt="image" src="images/CAS-Content-Types.png">
 
 3. Navigate To Content Resources and explore the available content coming from across SAP BTP applications.
@@ -13,7 +13,7 @@ View the metadata and general information available for different content resour
 </br><img width="500" alt="image" src="images/Content-resources.png">
 
 4. Start the export step by clicking on “Export” icon from left hand side menu.
-Select multiple contents from different content types. You can use the filters for Content Type. After selection proceed to Step 2.
+Select multiple contents from different content types as shown below in the table. You can use the filters for Content Type. After selection proceed to Step 2.
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
 	| Cloud Integration   |SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
@@ -43,5 +43,5 @@ for example “Teched  Demo Transport for AD261-001”.
 
 ## Summary
 
-You've now created a transport request with your user as suffix.
+You've now successfully created a transport request in Cloud Transport Management service.
 Continue to [Exercise 3 - Deploy to TEST using features in Cloud ALM ](../ex3/README.md)

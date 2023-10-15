@@ -33,16 +33,16 @@ Key Capabilities and Benefits:
 ## Requirements
 
 Tools Overview for content transports 
- - Local SAP Content Agent service - A generic tool for managing content operations for different SAP BTP service.
- - Central SAP Cloud Transport Management - Central tool to manage transports of development artifacts and application-specific content
- - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. 
+ - SAP Content Agent service - A generic tool for managing content operations for different SAP BTP service. This service is offered free and auto-entitled and operates at sub account level
+- SAP Cloud Transport Management - A tool to manage transports of development artifacts and application-specific content. The service is subscribed centrally per SAP BTP global account to effectively manage cloud landscape for transports.
+ - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
 
 </br>
 <b>Personas</b>
 </br></br>
 1. As a Content Operator you have the knowledge of all solutions and content live in their organization.
-You responsible to collect changes across SAP BTP applications via standard channel to ensure smooth deliveries. 
-You tasks are to streamline content changes, create packages for related content and trigger the export process for these changes using Transport Management service mode.
+You are responsible to collect changes across SAP BTP applications via standard channel to ensure smooth deliveries. 
+Your tasks are to streamline content changes, create packages for related content and trigger the export process for these changes using Transport Management service mode.
 You will be using SAP Content Agent service for exporting the content. 
 </br></br>
 2. As a Change Manager you are responsible to keep application changes up-to-date across all landscapes.

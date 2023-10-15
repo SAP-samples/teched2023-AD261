@@ -6,9 +6,10 @@ select the feature "Feature AD261-XXX" and click on "Approve for Production"
 </br><img width="500" alt="image" src="images/ALMFeatureApproveDeployment.png">
 
 2. After approving the feature for deployment, click on Deploy to start production deployment.
-You observe a final confirmation, click OK.
-</br><img width="500" alt="image" src="images/ALM-confirm-prod-deployment.png">
-</br><img width="500" alt="image" src="images/ALM-Confirm-OK-Prod.png">
+</br>You observe a final confirmation, click OK.
+</br>After confirming the deployment gets scheduled and takes a few minutes to complete. 
+</br><img width="500" alt="image" src="images/ALMDeployPROD.png">
+</br><img width="500" alt="image" src="images/ALMDeploymentScheduledInPROD.png">
 </br><img width="500" alt="image" src="images/ALM-deployed-OK.png">
 
 3. Check the history by clicking on the clock icon in the feature detail page. 

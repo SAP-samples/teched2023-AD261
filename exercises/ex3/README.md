@@ -19,10 +19,10 @@ To use better traceability option with regards to changes pushed in the transpor
 </br><img width="500" alt="image" src="images/ALM-deploy-tr.png">
 </br><img width="500" alt="image" src="images/ALM-Deployment-scheduled.png">
 
-6.	After the status shows “Deployed in TEST”, change status from Implementation to testing.
+6.	After the status shows “Deployed in TEST”, change status from Implementation to testing by clicking on ‘Handover to Test’ 
 </br><img width="500" alt="image" src="images/ALM-handover-to-Testing.png">
 
-7.	Show Deployment Status in Feature Traceability. Explore the different options and filters in Feature traceability. End users can use this view to decide on what all features should be released to production. 
+7.	Check Deployment Status in Feature Traceability. Explore the different options and filters in Feature traceability. End users can use this view to decide on what all features should be released to production. 
 Navigate to Features Overview and select “Analytics.”
 </br><img width="500" alt="image" src="images/ALM-analytics.png">
 </br><img width="500" alt="image" src="images/ALM-FeatureTrace.png">

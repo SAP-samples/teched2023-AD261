@@ -1,7 +1,7 @@
 # Getting Started - Prerequisites
 
 In this exercise, you can go through the steps required to set up the SAP BTP accounts and related configurations to get started with transporting content using the recommended tools.
-</br> These steps have been already performed for you. It is for your information only. 
+</br> These steps have been already performed for you. It is for your information only. You could observe the same by going to the SAP BTP sub accounts.
 
 ## Create SAP BTP subaccounts 
 
@@ -36,7 +36,7 @@ and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
 
 ## Create Central SAP BTP account
 1. Create a central SAP BTP subaccount [AD261-CALM](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/291cb5e2-bda7-4b89-bd75-d5ff4fd9df3b)
-2. Create subscription for Cloud Transport Management service and assigned required roles. 
+2. Create subscription for Cloud Transport Management service and assign required roles. 
 To use Cloud Transport Management service you need "Administrator" role collection assigned to your user.
 </br><img src="images/TMS-Subscription.png" width="50%">
 3. Create subscription for Cloud ALM service. To use Cloud ALM you need "Cross Global Administrator" role collection assigned to your user.

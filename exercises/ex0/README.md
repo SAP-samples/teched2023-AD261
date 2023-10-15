@@ -97,7 +97,7 @@ Paste the following json code into the text editor Replace <YourInstanceName> wi
 	}
 
 ## Configure Transport Management Destinations in Source BTP Account 
-1.	Create a SAP BTP destination for Cloud Transport management service in DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview) using the Cloud ALM API service instance created before. 
+Create a SAP BTP destination for Cloud Transport management service in DEV subaccount [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview) using the Cloud ALM API service instance created before. 
 <ol>
   <li>Name TransportManagementService (this value is case-sensitive) </li>
   <li>Type	HTTP </li>

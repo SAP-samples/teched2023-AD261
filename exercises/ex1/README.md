@@ -2,7 +2,7 @@
 
 In this exercise, you will create a new feature in SAP Cloud ALM. SAP Cloud ALM supports change management processes by utilising features through deploy or changes throughout the landscape consistently. 
 
-1. Launch the [Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your `AD261-<XXX>&#064;education.cloud.sap` user.
+1. Launch the [Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your `AD261-<XXX>@education.cloud.sap` user.
 2. Navigate to **Features**.  
     <img width="500" alt="image" src="images/ALM-feature.png">
 3. Create a new feature by choosing **Create**.  

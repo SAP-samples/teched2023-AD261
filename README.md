@@ -51,9 +51,9 @@ To manage the distribution of changes, you use SAP Cloud Transport Management an
 ## Exercises
 
 - [Getting Started - Prerequisites](exercises/ex0/README.md)
-- [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/README.md)
-- [Exercise 2 - Export content using Content Agent service](exercises/ex2/README.md)
-- [Exercise 3 - Deploy to TEST using features](exercises/ex3/README.md)
+- [Exercise 1 - Create an SAP Cloud ALM Feature](exercises/ex1/README.md)
+- [Exercise 2 - Export Content Using Content Agent Service](exercises/ex2/README.md)
+- [Exercise 3 - Deploy to TEST Using Features](exercises/ex3/README.md)
 - [Exercise 4 - Deploy to Production](exercises/ex4/README.md)
 - [Exercise 5 - Confirm Production Deployment](exercises/ex5/README.md)  
 

@@ -35,7 +35,7 @@ Key Capabilities and Benefits:
 Tools Overview for content transports 
  - SAP Content Agent service - A generic tool for managing content operations for different SAP BTP service. This service is offered free and auto-entitled and operates at sub account level
 - SAP Cloud Transport Management - A tool to manage transports of development artifacts and application-specific content. The service is subscribed centrally per SAP BTP global account to effectively manage cloud landscape for transports.
- - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP and non-SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
+ - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
 
 </br>
 <b>Personas</b>

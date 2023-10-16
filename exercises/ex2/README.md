@@ -1,4 +1,4 @@
-# Exercise 2 - Export Content using SAP Content Agent Service
+# Exercise 2 - Export Content Using SAP Content Agent Service
 
 Use the *SAP Content Agent* service to select the required content types from different SAP BTP applications. Choose the `SAP Cloud Transport Management` export mode to create a transport request to SAP Cloud Transport Management. 
 
@@ -8,21 +8,21 @@ Use the *SAP Content Agent* service to select the required content types from di
 2. Go to the **Content Types** page and check the status of the available content types.  
     <img width="500" alt="image" src="images/CAS-Content-Types.png">
 
-3. Go to to **Content Resources** and explore the available content coming from across SAP BTP applications.
-View the metadata and general information available for the different content resources.  
+3. Go to the **Content Resources** page and explore the available content coming from across SAP BTP applications.
+View the metadata and the general information available for the different content resources.  
     <img width="500" alt="image" src="images/Content-resources.png">
 
-4. Start the export step by clicking on “Export” icon from left hand side menu.
-Select multiple contents from different content types. You can use the filters for Content Type. After selection proceed to Step 2.
+4. Go to the **Export** page to start the export.
+Select multiple contents from the different content types. You can use filters for content types. After selection, proceed to **Step 2**.
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
-	| Cloud Integration   |SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
+	| Cloud Integration   | SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
 	| SAP API Management  |  HelloWorldAPI  
 	| Role Collection  |  Role Collection for Content Export | 
 	
 <br/> <img width="500" alt="image" src="images/export.png">
 
-5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to Step 3.
+5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to **Step 3**.
 </br><img width="500" alt="image" src="images/Depedencies.png">
 
 6.	Select Export Mode as “SAP Cloud Transport Management” and enter Description “Teched Demo Transport for AD261-XXX”. Proceed to Step 4.

@@ -53,18 +53,18 @@ and PROD [AD261-003](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/
 
 5. Create a transport landscape in [Cloud Transport Management](https://ad261-calm-h7f2r9xc.ts.cfapps.eu10.hana.ondemand.com/) using transport nodes and target account destinations.    
 *  **Source Node**
-    * Select the `Allow Upload to Node` checkbox.
-    * Leave the `Forward Mode` set to `Auto`.
-    * Do not select the `Controlled By SAP Solution Manager` checkbox.
-    * Keep the `Content Type` empty.
+    * Select the **Allow Upload to Node** checkbox.
+    * Leave the **Forward Mode** set to `Auto`.
+    * Do not select the **Controlled By SAP Solution Manager** checkbox.
+    * Keep the **Content Type** empty.
 
 *  **Target Nodes**
-    * Do not select the `Allow Upload to Node` checkbox.
-    * Leave the `Forward Mode` set to `Auto`.
-    * Select the `Content Type`: `Multi-Target Application` from the dropdown.
-    * Set the `Destination` to point to your development subaccount (CPI_TEST_CF).
-    * Leave the `Deployment Strategy` set to `default`.
-    * Choose `OK`.
+    * Do not select the **Allow Upload to Node** checkbox.
+    * Leave the **Forward Mode** set to `Auto`.
+    * Select `Multi-Target Application` as the **Content Type** from the dropdown.
+    * Set the **Destination** to point to your development subaccount (`CPI_TEST_CF`).
+    * Leave the **Deployment Strategy** set to `default`.
+    * Choose **OK**.
 <br/><br/>    
         <img src="images/TMS_landscape.png" width="50%">
 
@@ -106,4 +106,4 @@ Paste the following json code into the text editor. Replace `<YourInstanceName>`
 
 ## Summary
 
-You have successfully configured the SAP BTP landscape. Continue with [Exercise 1 Create SAP Cloud ALM Feature](../ex1/README.md).
+You have successfully configured the SAP BTP landscape. Continue with [Exercise 1 Create a  Feature in SAP Cloud ALM](../ex1/README.md).

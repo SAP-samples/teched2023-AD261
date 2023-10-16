@@ -43,4 +43,4 @@ View the metadata and the general information available for the different conten
 ## Summary
 
 You've created a transport request with your user as the suffix.
-Continue with [Exercise 3 - Deploy to TEST Using Features in SAP Cloud ALM ](../ex3/README.md)
+Continue with [Exercise 3 - Deploy to TEST Using the Features App in SAP Cloud ALM ](../ex3/README.md)

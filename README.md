@@ -5,7 +5,7 @@ SAP Teched Hands-On Guide for Content Management using SAP Content Agent service
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called *AD261 - Manage the Propagation of Content Types Based on SAP BTP with SAP Cloud ALM*. 
+This repository contains the material for the SAP TechEd 2022 session called **AD261 - Manage the Propagation of Content Types Based on SAP BTP with SAP Cloud ALM**. 
 
 ## Overview
 
@@ -51,10 +51,10 @@ To manage the distribution of changes, you use SAP Cloud Transport Management an
 ## Exercises
 
 - [Getting Started - Prerequisites](exercises/ex0/README.md)
-- [Exercise 1 - Create an SAP Cloud ALM Feature](exercises/ex1/README.md)
-- [Exercise 2 - Export Content Using Content Agent Service](exercises/ex2/README.md)
-- [Exercise 3 - Deploy to TEST Using Features](exercises/ex3/README.md)
-- [Exercise 4 - Deploy to Production](exercises/ex4/README.md)
+- [Exercise 1 - Create a Feature in SAP Cloud ALM](exercises/ex1/README.md)
+- [Exercise 2 - Export Content Using SAP Content Agent Service](exercises/ex2/README.md)
+- [Exercise 3 - Deploy to TEST Using the Features App in SAP Cloud ALM](exercises/ex3/README.md)
+- [Exercise 4 - Deploy to Production Using SAP Cloud Transport Management](exercises/ex4/README.md)
 - [Exercise 5 - Confirm Production Deployment](exercises/ex5/README.md)  
 
 

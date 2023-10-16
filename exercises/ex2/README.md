@@ -1,16 +1,16 @@
-# Exercise 2 - Export content using Content Agent service
+# Exercise 2 - Export Content using SAP Content Agent Service
 
-Use the standardized tool “Content Agent” to select desired contents across BTP application and export it using Cloud Transport Management service. The goal is to create a transport request using TMS. 
+Use the *SAP Content Agent* service to select the required content types from different SAP BTP applications. Choose the `SAP Cloud Transport Management` export mode to create a transport request to SAP Cloud Transport Management. 
 
-1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from DEV account AD261-001.
-</br><img width="500" alt="image" src="images/launchCASUI.png">
+1. Launch [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from your DEV account [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview). The UI loads with the *Overview* page where you can view active content types and activities performed and available content resources.  
+    <img width="500" alt="image" src="images/launchCASUI.png">
 
-2. Go To Content Types Page and check the status of Content Types.
-</br><img width="500" alt="image" src="images/CAS-Content-Types.png">
+2. Go to the **Content Types** page and check the status of the available content types.  
+    <img width="500" alt="image" src="images/CAS-Content-Types.png">
 
-3. Navigate To Content Resources and explore the available content coming from across SAP BTP applications.
-View the metadata and general information available for different content resources. 
-</br><img width="500" alt="image" src="images/Content-resources.png">
+3. Go to to **Content Resources** and explore the available content coming from across SAP BTP applications.
+View the metadata and general information available for the different content resources.  
+    <img width="500" alt="image" src="images/Content-resources.png">
 
 4. Start the export step by clicking on “Export” icon from left hand side menu.
 Select multiple contents from different content types. You can use the filters for Content Type. After selection proceed to Step 2.

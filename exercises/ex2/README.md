@@ -17,7 +17,7 @@ Select multiple contents from different content types as shown below in the tabl
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
 	| Cloud Integration   |SAP Responsible Design and Production Integration with SAP ERP.ad261.0012
-	| SAP API Management  |  HelloWorldAPI  
+	| SAP API Management  |  DevPortal_Application_CF_2_0  
 	| Role Collection  |  Role Collection for Content Export | 
 	
 <br/> <img width="500" alt="image" src="images/export.png">

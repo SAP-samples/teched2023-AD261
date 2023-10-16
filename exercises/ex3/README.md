@@ -25,7 +25,7 @@ To use better traceability options with regards to changes pushed in the transpo
 9.	When the `Deployed in TEST` transport status is reached, change the deployment status from `Implementation` to `In Testing`. To do this,  choose **Handover to Test**.   
     <img width="500" alt="image" src="images/ALM-handover-to-Testing.png">
 
-10.	Check the deployment status in the `Feature Traceability` app. To do this, navigate to `Features Overview` and select **Analytics**.    
+10.	Check the deployment status in the **Feature Traceability** app. To do this, navigate to `Features Overview` and select **Analytics**.    
     <img width="500" alt="image" src="images/ALM-analytics.png">
 11. Explore the different options and filters. End users can use this view to decide on which features they want to release to production.  
     <img width="500" alt="image" src="images/ALM-FeatureTrace.png">

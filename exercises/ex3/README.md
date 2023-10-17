@@ -1,7 +1,6 @@
 # Exercise 3 - Deploy to TEST Using the Features App in SAP Cloud ALM 
 
-To use better traceability options with regards to changes pushed in the transport, feature can be used to track deployment status following change management policies of moving changes through pre-defined stages in auditable manner. The goal here is to assign the transport request in Cloud ALM and deploy content based on change workflow. 
-
+The goal of this exercise is to assign the transport request in Cloud ALM and deploy content in TEST landscape based on change workflow. 
 
 1. Launch the [SAP Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/).
 2. Navigate to **Features**, and select the feature you created previously - `Feature AD261-XXX`.
@@ -24,10 +23,14 @@ To use better traceability options with regards to changes pushed in the transpo
 
 9.	When the `Deployed in TEST` transport status is reached, change the deployment status from `Implementation` to `In Testing`. To do this,  choose **Handover to Test**.   
     <img width="500" alt="image" src="images/ALM-handover-to-Testing.png">
+    
+## Feature Traceability
 
-10.	Check the deployment status in the **Feature Traceability** app. To do this, navigate to `Features Overview` and select **Analytics**.    
+To use better traceability options with regards to changes pushed in the transport, feature can be used to track deployment status following change management policies of moving changes through pre-defined stages in auditable manner. 
+
+1.	Check the deployment status in the **Feature Traceability** app. To do this, navigate to `Features Overview` and select **Analytics**.    
     <img width="500" alt="image" src="images/ALM-analytics.png">
-11. Explore the different options and filters. End users can use this view to decide on which features they want to release to production.  
+2. Explore the different options and filters. End users can use this view to decide on which features they want to release to production.  
     <img width="500" alt="image" src="images/ALM-FeatureTrace.png">
 
 

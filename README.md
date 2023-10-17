@@ -1,30 +1,30 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD261)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD261)
 
 # Session ID - AD261
+SAP Teched Hands-On Guide for Content Management using SAP Content Agent service, SAP Cloud Transport Management, and SAP Cloud ALM.
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Manage the Propagation of Content Types Based on SAP BTP with SAP Cloud ALM.  
+This repository contains the material for the SAP TechEd 2022 session called **AD261 - Manage the Propagation of Content Types Based on SAP BTP with SAP Cloud ALM**. 
 
 ## Overview
 
-Teched Hands-On Guide for Content Management using Content Agent, Cloud Transport and Cloud ALM service.
-Cloud application solutions, for example, SAP S/4HANA, SAP Cloud Integration, and SAP Workflow Management publishes content to the SAP API Business Hub. Depending on your requirement, you can import, and transport across various landscapes. Also, you can assemble different content types and export.Each service has its own content format to solve a specific business / technical problem. 
+Cloud application solutions, for example applications on SAP S/4HANA Cloud, public edition, SAP Cloud Integration, or SAP Workflow Management publish content to the SAP API Business Hub. Depending on your requirement, you can import, and transport this content across various landscapes. Also, you can assemble different content types and export them. Each service has its own content format to solve specific business or technical problems. 
 
-Challenges 
-1.	Transparency of deployed Content
-2.	Which Version of Content 
+### Challenges 
+1.	Transparency of deployed content
+2.	Which version of content 
 3.	See the Content Status
-4.	Trigger selective Transport across Accounts
-5.	Clone an account / Clone a Service subscription 
-6.	See Content and Application Dependencies 
+4.	Trigger selective transport across accounts
+5.	Clone an account / clone a service subscription 
+6.	Visualize Content and Application Dependencies 
 
-Key Capabilities and Benefits: 
+### Key Capabilities and Benefits 
 
-1.	Simple onboarding, Service subscription and One time Setup
-2.	Added Governance with Cloud ALM and standardised change process
-3.	Provide separation of concerns with audit trail of changes with SAP Cloud Transport Management Service 
-4.	Better productivity for developers, operators and supervisors.
+1.	Simple onboarding, service subscription and one-time setup
+2.	Added governance with SAP Cloud ALM and standardized change processes
+3.	Provide a separation of concerns with the audit trail of changes with SAP Cloud Transport Management Service 
+4.	Better productivity for developers, operators, and supervisors.
 5.	Transparency of content transports and control with authorizations
 6.	Less manual transport errors
 
@@ -34,28 +34,27 @@ Key Capabilities and Benefits:
 
 Tools Overview for content transports 
  - SAP Content Agent service - A generic tool for managing content operations for different SAP BTP service. This service is offered free and auto-entitled and operates at sub account level
-- SAP Cloud Transport Management - A tool to manage transports of development artifacts and application-specific content. The service is subscribed centrally per SAP BTP global account to effectively manage cloud landscape for transports.
+ - SAP Cloud Transport Management - A tool to manage transports of development artifacts and application-specific content. The service is subscribed centrally per SAP BTP global account to effectively manage cloud landscape for transports.
  - Central SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
 
-</br>
-<b>Personas</b>
+### Personas
+
+1. As a *content operator* you have the knowledge of all solutions and content that exists in your organization.
+You are responsible to collect changes across SAP BTP applications via standard channels to ensure smooth deliveries. 
+Your tasks are to streamline content changes, create packages for related content and trigger the export process for these changes using SAP Transport Management.
+To export content, you use SAP Content Agent service. 
 </br></br>
-1. As a Content Operator you have the knowledge of all solutions and content live in their organization.
-You are responsible to collect changes across SAP BTP applications via standard channel to ensure smooth deliveries. 
-Your tasks are to streamline content changes, create packages for related content and trigger the export process for these changes using Transport Management service mode.
-You will be using SAP Content Agent service for exporting the content. 
-</br></br>
-2. As a Change Manager you are responsible to keep application changes up-to-date across all landscapes.
-Your tasks include review and approve changes and to monitor transport requests propagation into target accounts
-You will be using Cloud Transport Management and Cloud ALM to manage distribution of changes.
+2. As a *change manager* you are responsible for keeping application changes up-to-date across all landscapes.
+Your tasks include reviewing and approving changes and monitoring the propagation of transport requests into target accounts.
+To manage the distribution of changes, you use SAP Cloud Transport Management and SAP Cloud ALM.
 
 ## Exercises
 
 - [Getting Started - Prerequisites](exercises/ex0/README.md)
-- [Exercise 1 - Create SAP Cloud ALM Feature](exercises/ex1/README.md)
-- [Exercise 2 - Export content using Content Agent service](exercises/ex2/README.md)
-- [Exercise 3 - Deploy to TEST using features](exercises/ex3/README.md)
-- [Exercise 4 - Deploy to Production](exercises/ex4/README.md)
+- [Exercise 1 - Create a Feature in SAP Cloud ALM](exercises/ex1/README.md)
+- [Exercise 2 - Export Content Using SAP Content Agent Service](exercises/ex2/README.md)
+- [Exercise 3 - Deploy to TEST Using the Features App in SAP Cloud ALM](exercises/ex3/README.md)
+- [Exercise 4 - Deploy to Production Using SAP Cloud Transport Management](exercises/ex4/README.md)
 - [Exercise 5 - Confirm Production Deployment](exercises/ex5/README.md)  
 
 

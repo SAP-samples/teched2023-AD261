@@ -13,6 +13,7 @@ In this exercise, you will create a new feature in SAP Cloud ALM. SAP Cloud ALM 
     <img width="500" alt="image" src="images/ALM-New-feature.png">
 7. Confirm that you want to start implementation for the new feature.  
     <img width="500" alt="image" src="images/ALM-start-impl.png">
+
 ## Summary
 
 You've created a new feature in SAP Cloud ALM. 

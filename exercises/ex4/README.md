@@ -11,6 +11,7 @@ When you observe a final confirmation, click **OK**.  After confirming, the depl
     <img width="500" alt="image" src="images/ALM-Confirm-OK-Prod.png">  
     <img width="500" alt="image" src="images/ALM-deployed-OK.png">  
 
+
 3. Check the history by clicking on the clock icon in the feature detail page. 
     <img width="500" alt="image" src="images/ALM-History.png">  
     <img width="500" alt="image" src="images/ALM-History-Full.png">  

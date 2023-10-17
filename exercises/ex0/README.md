@@ -1,7 +1,7 @@
 # Getting Started - Prerequisites
 
 You can go through the steps required to set up the SAP BTP accounts and related configurations to start transporting content using the recommended tools.  
-These steps have been already performed for you. It is for your information only. 
+These steps have been already performed for you. It is for your information only. You could observe the same by going to the SAP BTP subaccounts.
 
 ## Create SAP BTP Subaccounts 
 

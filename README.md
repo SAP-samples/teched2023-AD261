@@ -40,13 +40,13 @@ Tools Overview for content transports
  - SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
 
 ### Goal
-Goal of this exercise is to propagate content from different SAP BTP application across three tier landscape – DEV, TEST and PROD subaccounts.
+The goal of this exercise is to propagate content from different SAP BTP applications across a three-tier landscape consisting of DEV, TEST, and PROD subaccounts.
 
-  As a *content operator* you have the knowledge of all solutions and content that exists in your organization. You are responsible to collect changes across SAP BTP applications via standard channels to ensure smooth deliveries. You will use SAP **SAP Content Agent service** to export content from DEV by creating a transport request in Cloud Transport Management.
-
-  As a *change manager* you are responsible for keeping application changes up-to-date across all landscapes using transport routes that are configured using **SAP Cloud Transport Management**.
-To review, approve changes and monitor the propagation changes into target accounts, you will use **SAP Cloud ALM** Features to go through the workflow of transport requests deployment in TEST and PROD.
-
+  As a *content operator* you have comprehensive knowledge of all solutions and content within your organization. You are responsible for collecting changes from SAP BTP applications via standard channels to ensure smooth deliveries. To accomplish this, you will use **SAP Content Agent service** to export content from the DEV subaccount and create a transport request in SAP Cloud Transport Management.
+  
+ 
+  As a *change manager*, you are responsible for keeping application changes up-to-date across all landscapes using transport routes configured in **SAP Cloud Transport Management**.
+To review, approve, and monitor the propagation of changes into target accounts, you will use the **SAP Cloud ALM** Features app, leveraging its workflow capabilities to orchestrate the deployment of transport requests into the TEST and PROD environments.
 
 ## Exercises
 

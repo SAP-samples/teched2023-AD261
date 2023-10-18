@@ -12,12 +12,14 @@ This repository contains the material for the SAP TechEd 2022 session called **A
 Cloud application solutions, for example applications on SAP S/4HANA Cloud, public edition, SAP Cloud Integration, or SAP Workflow Management publish content to the SAP Business Accelerator Hub. Depending on your requirement, you can import, and transport this content across various landscapes. Also, you can assemble different content types and export them. Each service has its own content format to solve specific business or technical problems. 
 
 ### Challenges 
-1.	Transparency of deployed content
-2.	Which version of content 
-3.	See the Content Status
-4.	Trigger selective transport across accounts
-5.	Clone an account / clone a service subscription 
-6.	Visualize Content and Application Dependencies 
+1.	No standardized solution for different SAP BTP services
+2.	Trigger selective transport across accounts. Manual effort in export and import operations
+3.	Transparency of deployed content with the status
+4.	Visualize Content and Application Dependencies
+5.	No Operations view of performed activity
+6.	No added governance for change management policies
+7.  No audit trail of past activities
+
 
 ### Key Capabilities and Benefits 
 

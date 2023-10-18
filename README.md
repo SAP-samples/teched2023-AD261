@@ -39,16 +39,14 @@ Tools Overview for content transports
  - SAP Cloud Transport Management - A tool to manage transports of development artifacts and application-specific content. The service is subscribed centrally per SAP BTP global account to effectively manage cloud landscape for transports.
  - SAP Cloud ALM - An application lifecycle management offering for cloud-centric customers. It provides capabilities for implementation and operations of SAP cloud solutions. This service is also subscribed centrally per SAP BTP global account.
 
-### Personas
+### Goal
+Goal of this exercise is to propagate content from different SAP BTP application across three tier landscape – DEV, TEST and PROD subaccounts.
 
-1. As a *content operator* you have the knowledge of all solutions and content that exists in your organization.
-You are responsible to collect changes across SAP BTP applications via standard channels to ensure smooth deliveries. 
-Your tasks are to streamline content changes, create packages for related content and trigger the export process for these changes using SAP Transport Management.
-To export content, you use SAP Content Agent service. 
-</br></br>
-2. As a *change manager* you are responsible for keeping application changes up-to-date across all landscapes.
-Your tasks include reviewing and approving changes and monitoring the propagation of transport requests into target accounts.
-To manage the distribution of changes, you use SAP Cloud Transport Management and SAP Cloud ALM.
+  As a *content operator* you have the knowledge of all solutions and content that exists in your organization. You are responsible to collect changes across SAP BTP applications via standard channels to ensure smooth deliveries. You will use SAP **SAP Content Agent service** to export content from DEV by creating a transport request in Cloud Transport Management.
+
+  As a *change manager* you are responsible for keeping application changes up-to-date across all landscapes using transport routes that are configured using **SAP Cloud Transport Management**.
+To review, approve changes and monitor the propagation changes into target accounts, you will use **SAP Cloud ALM** Features to go through the workflow of transport requests deployment in TEST and PROD.
+
 
 ## Exercises
 

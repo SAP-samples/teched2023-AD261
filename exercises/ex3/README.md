@@ -16,8 +16,9 @@ The goal of this exercise is to assign the transport request in Cloud ALM and de
 6. Save and close.  
     <img width="500" alt="image" src="images/ALM-Feature-Save.png">
 
-7. To deploy the changes in the TEST tenant, choose **Deploy**.   
+7. To deploy the changes in the TEST tenant, click on **Deploy**. Click on Deploy again for confirmation to deploy all transports for deployment target TEST.  
     <img width="500" alt="image" src="images/ALM-deploy-tr.png">
+    
 8. Check that the status of transport request `Teched  Demo Transport for AD261-XXX` changes to `Deployment scheduled in TEST`.   
     <img width="500" alt="image" src="images/ALM-Deployment-scheduled.png">
 

@@ -1,7 +1,7 @@
 # Exercise 5 - Confirm Production Deployment
 Check the action logs in the Cloud Transport Management service UI. 
 
-1. Launch the [cTMS UI](https://ad261-calm-h7f2r9xc.ts.cfapps.eu10.hana.ondemand.com/main/webapp/index.html#/nodeObject/6).
+1. Launch the [cTMS UI](https://ad261-calm-h7f2r9xc.ts.cfapps.eu10.hana.ondemand.com/main/webapp/index.html#).
 2. Go to **Transport Nodes** and select the `PROD` node.  
     <img width="500" alt="image" src="images/TMSNodes.png">
 

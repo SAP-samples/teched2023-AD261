@@ -39,4 +39,4 @@ To use better traceability options with regards to changes pushed in the transpo
 
 ## Summary
 
-You've deployed the changes in the TEST tenant where the different integration and acceptance tests can be performed. Continue with [Exercise 4 - Deploy to Production using SAP Cloud Transport Management](../ex4/README.md)
+You've deployed the changes in the TEST tenant where the different integration and acceptance tests can be performed. Continue with [Exercise 4 - Deploy to Production](../ex4/README.md)

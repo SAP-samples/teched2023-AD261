@@ -16,9 +16,9 @@ View the metadata and the general information available for the different conten
 4. Go to the **Export** page to start the export. Select multiple contents from the different content types as shown in the following table. You can use filters for the content types. For role collection, youAfter selection, proceed to **Step 2**.
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
-	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX` where `XXX` is last three digits of your user. For example 001
+	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX` where `XXX` is last three digits of your user. For example 001.
 	| `SAP API Management`  |  `DevPortal_Application_CF_2_0`  
-	| `Role Collection`  |  `Role Collection for Content Export`  
+	| `Role Collection`  |  `Role Collection for Content Export`. You can choose to expand this content and select `roles` and `users` components. This will transport the role collection with user and role assignments.
 	| `Destination`  |  `DummyDestination`  |
 	
 

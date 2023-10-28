@@ -13,12 +13,13 @@ Use the **SAP Content Agent** service (CAS) to select the required content types
 View the metadata and the general information available for the different content resources.  
     <img width="500" alt="image" src="images/Content-resources.png">
 
-4. Go to the **Export** page to start the export. Select multiple contents from the different content types as shown in the following table. You can use filters for the content types. After selection, proceed to **Step 2**.
+4. Go to the **Export** page to start the export. Select multiple contents from the different content types as shown in the following table. You can use filters for the content types. For role collection, youAfter selection, proceed to **Step 2**.
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
 	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX`
 	| `SAP API Management`  |  `DevPortal_Application_CF_2_0`  
-	| `Role Collection`  |  `Role Collection for Content Export` |   
+	| `Role Collection`  |  `Role Collection for Content Export`  
+	| `Destination`  |  `DummyDestination`  |
 	
 
      <img width="500" alt="image" src="images/export.png">
@@ -40,6 +41,10 @@ View the metadata and the general information available for the different conten
 
 10. Check the content information and transport info by clicking on the `i (info)` icon.  
     <img width="500" alt="image" src="images/ActivitiesTransportInfo.png">
+
+11. Check the transport request information by clicking on Transport Details. You can also view the transport request created by clicking on the link. This opens Cloud Transport Management in a new tab. 
+    <img width="500" alt="image" src="images/NavigationToTMS.png">
+    <img width="500" alt="image" src="images/TRinTMS.png">
 
 ## Summary
 

@@ -18,7 +18,7 @@ After checking the action logs, you can also chose to validate the content avail
 1. Launch the [Content Agent UI](https://ad261-003-020ez9xc.content-agent.cfapps.eu10.hana.ondemand.com/) from the PROD account.  
     <img width="500" alt="image" src="images/CAS-Prod.png">
 
-2. Navigate to **Content Resources** and search for the integration package with your user as suffix. For Cloud Integration, search for the integration package with your user `.ad261.XXX`. 
+2. Navigate to **Content Resources** and search for the integration package with your user as suffix. For Cloud Integration, search for the integration package with your user `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX`. 
 For example, `SAP Responsible Design and Production Integration with SAP ERP.ad261.0012`.  
     <img width="500" alt="image" src="images/CAS-Prod-Content-Respurces.png">
 

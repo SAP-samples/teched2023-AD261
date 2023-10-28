@@ -42,8 +42,8 @@ View the metadata and the general information available for the different conten
 10. Check the content information and transport info by clicking on the `i (info)` icon.  
     <img width="500" alt="image" src="images/ActivitiesTransportInfo.png">
 
-11. Check the transport request information by clicking on Transport Details. You can also view the transport request created by clicking on the link. This opens Cloud Transport Management in a new tab. 
-    <img width="500" alt="image" src="images/NavigationToTMS.png">
+11. Check the transport request information by clicking on Transport Details. You can also view the transport request created by clicking on the link. This opens Cloud Transport Management in a new tab.  
+    <img width="500" alt="image" src="images/NavigationToTMS.png"> 
     <img width="500" alt="image" src="images/TRinTMS.png">
 
 ## Summary

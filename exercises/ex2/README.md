@@ -23,6 +23,7 @@ View the metadata and the general information available for the different conten
 	
 
      <img width="500" alt="image" src="images/export.png">
+     <img width="500" alt="image" src="images/RoleCollection.png">
 
 5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to **Step 3**.
 </br><img width="500" alt="image" src="images/Depedencies.png">

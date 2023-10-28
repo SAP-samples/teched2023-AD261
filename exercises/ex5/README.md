@@ -5,7 +5,7 @@ Check the action logs in the Cloud Transport Management service UI.
 2. Go to **Transport Nodes** and select the `PROD` node.  
     <img width="500" alt="image" src="images/TMSNodes.png">
 
-3. Click on the transport request with your user suffix - `Teched  Demo Transport for AD261-XXX`.   
+3. Search for the transport request with your user suffix - `Teched  Demo Transport for AD261-XXX`.   
     <img width="500" alt="image" src="images/TMSProdTR.png">
 
 4. Check the status of the import for target node PROD by clicking on **Action Logs**.  

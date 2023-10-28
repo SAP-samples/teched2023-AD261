@@ -16,7 +16,7 @@ View the metadata and the general information available for the different conten
 4. Go to the **Export** page to start the export. Select multiple contents from the different content types as shown in the following table. You can use filters for the content types. After selection, proceed to **Step 2**.
     | Content Type   | Content Name  |
 	| -------------  | ------------- |
-	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.0012`
+	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX`
 	| `SAP API Management`  |  `DevPortal_Application_CF_2_0`  
 	| `Role Collection`  |  `Role Collection for Content Export` |   
 	

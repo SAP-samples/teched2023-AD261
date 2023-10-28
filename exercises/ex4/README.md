@@ -3,13 +3,13 @@
 Once the changes are successfully tested in the TEST tenant, start the deployment process for the PROD tenant.
 1. In [SAP Cloud ALM UI](https://ad261-calm-h7f2r9xc.eu10.alm.cloud.sap/launchpad#Shell-home),
 select the feature **Feature AD261-XXX** and choose **Approve for Production**.  
-    <img width="500" alt="image" src="images/ALMFeatureApproveDeployment.png">
+    <img width="500" alt="image" src="images/1.png">
 
 2. After approving the feature for deployment, click on **Deploy** to start production deployment.
 When you observe a final confirmation, click **OK**.  After confirming, the deployment gets scheduled and takes a few minutes to complete.  
-    <img width="500" alt="image" src="images/ALMDeployPROD.png">  
-    <img width="500" alt="image" src="images/ALMDeploymentScheduledInPROD.png">  
-    <img width="500" alt="image" src="images/ALM-deployed-OK.png">  
+    <img width="500" alt="image" src="images/2.png">  
+    <img width="500" alt="image" src="images/3.png">  
+    <img width="500" alt="image" src="images/5.png">  
     
 
 3. Check the history by clicking on the clock icon in the feature detail page. 

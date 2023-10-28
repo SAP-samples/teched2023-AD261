@@ -19,31 +19,33 @@ View the metadata and the general information available for the different conten
 	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX` where `XXX` is last three digits of your user. For example 001.
 	| `SAP API Management`  |  `DevPortal_Application_CF_2_0`  
 	| `Role Collection`  |  `Role Collection for Content Export`. You can choose to expand this content and select `roles` and `users` components. This will transport the role collection with user and role assignments.
-	| `Destination`  |  `DummyDestination`  |
+	| `UI5 Flexibility for Key Users` | `sap.ui.demoapps.rta.fiorielements` 
+	| `Destination`  |  `DummyDestination` |
+       
 	
 
      <img width="700" alt="image" src="images/export.png">
      <img width="700" alt="image" src="images/RoleCollection.png">
 
-5. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to **Step 3**.
+6. Since these content types do not have any dependencies, you observe an empty list. Skip this optional step to add dependencies and proceed to **Step 3**.
 </br><img width="700" alt="image" src="images/Depedencies.png">
 
-6. Select `SAP Cloud Transport Management` as the **Export Mode**, and enter `Teched Demo Transport for AD261-XXX` as the **Description**, for example `Teched  Demo Transport for AD261-001`. Afterwards, proceed to **Step 4**.  
+7. Select `SAP Cloud Transport Management` as the **Export Mode**, and enter `Teched Demo Transport for AD261-XXX` as the **Description**, for example `Teched  Demo Transport for AD261-001`. Afterwards, proceed to **Step 4**.  
     <img width="700" alt="image" src="images/ExportMode.png">
 
-7. Review all the choices you made about content and transport. To start the export in the background, proceed to **Step 5**.  
+8. Review all the choices you made about content and transport. To start the export in the background, proceed to **Step 5**.  
     <img width="700" alt="image" src="images/CASExportReview.png">
 
-8. Go to the **Activities Performed** page to display logs and progress information.  
+9. Go to the **Activities Performed** page to display logs and progress information.  
     <img width="700" alt="image" src="images/Export-Activities-Performed.png">
 
-9. Check the logs for the last activity by clicking on the `Logs` icon.  
+10. Check the logs for the last activity by clicking on the `Logs` icon.  
     <img width="700" alt="image" src="images/ActivityLogs.png">
 
-10. Check the content information and transport info by clicking on the `i (info)` icon.  
+11. Check the content information and transport info by clicking on the `i (info)` icon.  
     <img width="700" alt="image" src="images/ActivitiesTransportInfo.png">
 
-11. Check the transport request information by clicking on Transport Details. You can also view the transport request created by clicking on the link. This opens Cloud Transport Management in a new tab.  
+12. Check the transport request information by clicking on Transport Details. You can also view the transport request created by clicking on the link. This opens Cloud Transport Management in a new tab.  
     <img width="700" alt="image" src="images/NavigationToTMS.png"> 
     <img width="700" alt="image" src="images/TRinTMS.png">
 

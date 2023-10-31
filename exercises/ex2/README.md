@@ -3,7 +3,7 @@
 Use the **SAP Content Agent** service (CAS) to select the required content types from different SAP BTP applications, and export them in a format compatible with **SAP Cloud Transport Management** service (cTMS). The goal is to create a transport request that can be used with cTMS.
 
 
-1. Launch the [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from your DEV account [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview). The UI loads with the **Overview** page where you can view active content types, activities performed, and available content resources.  
+1. Launch the [Content Agent UI](https://ad261-001-0q6x29xc.content-agent.cfapps.eu10.hana.ondemand.com/) from your DEV account [AD261-001](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/subaccount/6fd4e2f0-4751-4c32-a2c7-1f1591d4847e/subaccountoverview). The UI loads with the **Overview** page where you can view active content types, activities performed, and available content resources.  
     <img width="700" alt="image" src="images/launchCASUI.png">
 
 2. Go to the **Content Types** page and check that the status of the available content types is **Active**. The **Active** status indicates that you can perform content operations for the content type in this account.  

@@ -10,8 +10,9 @@ The goal of this exercise is to assign the transport request in Cloud ALM and de
 4. Under **Transports**, choose **Assign**. Choose the transport request with the description that contains your user as the suffix - `Teched Demo Transport for AD261-XXX`.   
     <img width="700" alt="image" src="images/ALM-edit-feature.png">
 
-5. Select the transport request you created - `Teched  Demo Transport for AD261-XXX` - and choose **Assign**.  
+5. Select the transport request you created - `Teched  Demo Transport for AD261-XXX` - and choose **Assign**. Click on the refresh button if the transport request does not show in the list.
     <img width="700" alt="image" src="images/ALM-assign-TR.png">
+    <img width="700" alt="image" src="images/TMS-refresh.png">
 
 6. Save and close.  
     <img width="700" alt="image" src="images/ALM-Feature-Save.png">

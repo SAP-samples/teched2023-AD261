@@ -19,10 +19,8 @@ View the metadata and the general information available for the different conten
 	| `Cloud Integration`   | `SAP Responsible Design and Production Integration with SAP ERP.ad261.XXX` where `XXX` is last three digits of your user. For example 001.
 	| `SAP API Management`  |  `DevPortal_Application_CF_2_0`  
 	| `Role Collection`  |  `Role Collection for Content Export`. You can choose to expand this content and select `roles` and `users` components. This will transport the role collection with user and role assignments.
-	| `UI5 Flexibility for Key Users` | `sap.ui.demoapps.rta.fiorielements` 
 	| `Destination`  |  `DummyDestination` |
        
-	
 
      <img width="700" alt="image" src="images/export.png">
      <img width="700" alt="image" src="images/RoleCollection.png">

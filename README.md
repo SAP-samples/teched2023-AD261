@@ -57,6 +57,13 @@ To review, approve, and monitor the propagation of changes into target accounts,
 - [Exercise 4 - Deploy to Production Using SAP Cloud Transport Management](exercises/ex4/README.md)
 - [Exercise 5 - Confirm Production Deployment](exercises/ex5/README.md)  
 
+## Resources
+
+- [Help Portal Product Page](https://help.sap.com/docs/content-agent-service?locale=en-US)
+- [Blog: New User Interface for Content Agent Service](https://blogs.sap.com/2022/08/09/new-user-interface-for-content-agent-service/)
+- [How to use SAP Content Agent Service](https://blogs.sap.com/2022/09/05/how-to-use-sap-content-agent-service-video/)
+- [Roadmap](https://roadmaps.sap.com/board?range=CURRENT-LAST&PRODUCT=73555000100800002111#Q4%202023)
+
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
